@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 const bcrypt = require("bcryptjs");
 
+// SCHEMA FOR USER(ADMIN)
 const userSchema = new mongoose.Schema(
   {
     email: {

@@ -48,6 +48,7 @@ app.use(
   })
 );
 
+// settingup passport/ session
 app.use(passport.initialize());
 app.use(passport.session());
 
@@ -60,6 +61,7 @@ app.use(customMware.setFlash);
 // use express router
 app.use("/", require("./routes"));
 
+// add listener to the server
 app.listen(PORT || 5000, (err) => {
   if (err) {
     console.log(`Error in running the server: ${err}`);

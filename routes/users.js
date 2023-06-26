@@ -1,11 +1,14 @@
+// REQUIRING MODULES
 const express = require("express");
 const passport = require("passport");
 const router = express.Router();
 
+// REQUIRING FILES
 const { downloadCSVReport } = require("../controllers/csv_controller");
 const usersController = require("../controllers/users_controller");
 const dashboardController = require("../controllers/dashboard_controller");
 
+// // SUB ROUTING AND HANDLING THE REQUEST OVER TO CONTROLLERS
 router.get("/profile", passport.checkAuthentication, usersController.profile);
 router.post("/update", passport.checkAuthentication, usersController.update);
 

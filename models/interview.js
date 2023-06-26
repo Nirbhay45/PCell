@@ -1,5 +1,7 @@
 const mongoose = require("mongoose");
 
+
+// SCHEMA FOR INTERVIEW DATA
 const interviewSchema = new mongoose.Schema(
   {
     company: {

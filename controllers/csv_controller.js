@@ -40,7 +40,7 @@ module.exports.downloadCSVReport = async function (req, res) {
         }
       }
     }
-
+    // THE CSV FILE GENERATED IS STORED IN UPLOADS DIRECTORY
     const csvFile = fs.writeFile(
       "uploads/studentsReport.csv",
       report,
