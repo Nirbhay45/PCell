@@ -1,0 +1,6 @@
+student Id, Student name,Student college, Student email, Student status, DSA Final Score, WebD Final Score, React Final Score, Interview date, Interview company, Interview result
+64999c926f4ba72f445e3b09, Sourav,HIT,saurav@gmail.com,Not placed,98,64,76,2023-06-27,TCS,PASS
+64999c926f4ba72f445e3b09, Sourav,HIT,saurav@gmail.com,Not placed,98,64,76,2023-06-28,XYZ,FAIL
+64999d8d6f4ba72f445e3b52,Yash,HIT,yash@gmail.com,Not placed,70,72,88,2023-06-29,ABC,On Hold
+64999dd16f4ba72f445e3b86,Aditya,HIT,aditya@gmail.com,Not placed,78,87,89,2023-06-28,XYZ,PASS
+64999dd16f4ba72f445e3b86,Aditya,HIT,aditya@gmail.com,Not placed,78,87,89,2023-06-29,ABC,On Hold
